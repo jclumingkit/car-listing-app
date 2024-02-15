@@ -1,0 +1,22 @@
+{
+  "name": "car-listing-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.15",
+    "@inkline/inkline": "^4.2.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.3",
+    "vite": "^5.1.0",
+    "@inkline/plugin": "^1.5.2",
+    "@inkline/config": "^1.9.1",
+    "sass": "^1.64.0"
+  }
+}
