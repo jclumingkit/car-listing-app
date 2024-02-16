@@ -37,7 +37,7 @@ watchEffect(() => {
     <ICard class="cardContainer">
 
         <template #image>
-            <img src="https://source.unsplash.com/random?car" alt="Card Image" />
+            <img :src="`https://source.unsplash.com/random/?${make},${model}`" alt="Card Image" />
         </template>
        
         <h5>{{ make }} {{ model }} {{ year }}</h5>
